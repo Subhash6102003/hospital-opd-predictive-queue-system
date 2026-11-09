@@ -1,0 +1,28 @@
+{
+  "name": "systemflow-s1-hospital-opd",
+  "version": "1.0.0",
+  "description": "Bayesian no-show probability scoring, dynamic capacity allocation, and instant standby promotion on patient no-show.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "healthcare",
+    "predictive-modeling",
+    "state-machine",
+    "queues",
+    "scheduling",
+    "overbooking"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.1"
+  }
+}
