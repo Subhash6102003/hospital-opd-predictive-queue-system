@@ -1,5 +1,5 @@
 {
-  "name": "systemflow-s1-hospital-opd",
+  "name": "hospital-opd-predictive-queue-system",
   "version": "1.0.0",
   "description": "Bayesian no-show probability scoring, dynamic capacity allocation, and instant standby promotion on patient no-show.",
   "main": "./dist/index.js",
